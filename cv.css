@@ -1,7 +1,21 @@
 body{
 	background-color: #333333;
 }
-
+a{
+	position: absolute;
+	font-family:  Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-size: 3.5vw;
+	font-weight: bolder;
+	color: #333333;
+	text-decoration: none;
+	top:50%;
+	left:50%;
+	-moz-transform: translate(50%, -50%);
+	-webkit-transform: translate(50%, -50%);
+	-o-transform: translate(50%, -50%);
+	-ms-transform: translate(50%, -50%);
+	transform: translate(-50%, -50%);
+}
 #cv{
 	position: fixed;
 	top: 30%;
@@ -10,6 +24,11 @@ body{
 	left: 15%;
 	background-color: #333333;
 	text-align: center;
+}
+.CVContainer{
+	display: relative;
+	height: 100%;
+
 }
 #photo{
 	position: fixed;
