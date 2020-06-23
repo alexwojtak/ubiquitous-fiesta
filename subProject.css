@@ -27,22 +27,24 @@ a{
 .projectElement{
 	width: calc(100%  /3);
 	height: 50%;
+	background-size: cover;
 }
 #projectH1{
-	background-color: dodgerblue;
+	
+	background-image: url("1.jpg");
 }
 #projectH2{
-	background-color: orangered;
+	background-image: url("2.jpg");
 }
 #projectH3{
-	background-color: violet;
+	background-image: url("3.jpg");
 }
 #projectH4{
-	background-color: yellow;
+	background-image: url("4.jpg");
 }
 #projectH5{
-	background-color: green;
+	background-image: url("1.jpg");
 }
 #projectH6{
-	background-color: #000000;
+	background-image: url("2.jpg");
 }
