@@ -1,4 +1,19 @@
-
+@keyframes pulse{
+	from {;
+	  -moz-transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1, 1);  
+	}
+	to {
+	  -moz-transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1); 
+	}
+  }
 
 html{
 	height: 100%;
@@ -43,6 +58,12 @@ body{
 	font-size: 3.5vw;
 	font-weight: bolder;
 	color:  #333333;
+}
+.bordercontainer:hover{
+	animation-name: pulse;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(.26,1.46,.5,-0.07);
 }
 
 #titleContainer{
