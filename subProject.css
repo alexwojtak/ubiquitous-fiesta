@@ -1,14 +1,32 @@
 .mainContainer{
-	margin-top:20vh;
+	top: 30%;
 	display: flex;
-	position: absolute;	
+	position: relative;	
 	flex-direction: row;
     flex-wrap: wrap;
 	width: 100%;
 	height: 70%;
+	align-self: stretch;
+}
+a{
+	font-family:  Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-size: 3.5vw;
+	font-weight: bolder;
+	color: #333333;
+	text-decoration: none;
+}
+
+.projectContainer{
+	margin-top: 25%;
+	-moz-transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
 }
 .projectElement{
-    width: calc(100%  /3)
+	width: calc(100%  /3);
+	height: 50%;
 }
 #projectH1{
 	background-color: dodgerblue;
