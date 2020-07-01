@@ -25,9 +25,10 @@ a{
 	transform: translate(0, -50%);
 }
 .projectElement{
-	width: calc(100%  /3);
+	width: calc((100%  /3) - 2vw);
 	height: 50%;
 	background-size: cover;
+	margin: 1vw;
 }
 #projectH1{
 	
