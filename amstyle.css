@@ -28,10 +28,14 @@ body{
 }
 #aboutMeTextContainer{
 
+	min-height: 100px;
+	display: inline-flex;
+	align-items: center;
 }
 
 #aboutMeText{
 	text-align: left;
+
 	margin:10%;
 }
 
