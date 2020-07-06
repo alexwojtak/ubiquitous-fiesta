@@ -4,6 +4,7 @@ body{
 
 #aboutMe{
 	position: fixed;
+	display: flex;
 	top: 30%;
 	width: 30%;
 	height: 60%;
@@ -25,11 +26,13 @@ body{
 	max-width:40vw;
 	height: auto;
 }
+#aboutMeTextContainer{
+
+}
 
 #aboutMeText{
+	text-align: left;
 	margin:10%;
-	padding-top: auto;
-	padding-bottom: auto;
 }
 
 @media only screen and (max-width: 600px) {
