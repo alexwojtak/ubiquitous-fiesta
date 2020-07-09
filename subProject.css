@@ -1,15 +1,17 @@
-@keyframes boxShadow {
-	0% {
-	  -webkit-box-shadow: 0px 0px 10px 1px #AAAAFF; 
-  box-shadow: 0px 0px 10px 1px #AAAAFF;
+@keyframes pulse{
+	from {;
+	  -moz-transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1, 1);  
 	}
-	50% {
-	  -webkit-box-shadow: 0px 0px 10px 10px #AAAAFF; 
-  box-shadow: 0px 0px 10px 10px #AAAAFF;
-	}
-	100%{
-	  -webkit-box-shadow:0px 0px 10px 1px #AAAAFF; 
-	  box-shadow: 0px 0px 10px 1px #AAAAFF;
+	to {
+	  -moz-transform: scale(1.05, 1.05);
+	-webkit-transform: scale(1.05, 1.05);
+	-o-transform: scale(1.05, 1.05);
+	-ms-transform: scale(1.05, 1.05);
+	transform: scale(1.05, 1.05); 
 	}
   }
 
@@ -46,11 +48,10 @@ a{
 	margin: 1vw;
 }
 .projectElement:hover{
-	animation-name: boxShadow;
-	animation-duration: 4s;
+	animation-name: pulse;
+	animation-duration: 0.8s;
 	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.26,1.46,.5,-0.07);
 }
 #projectH1{
 	
